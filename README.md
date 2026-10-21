@@ -17,7 +17,7 @@ The `changed` command uses `git diff` to find modified files and their transitiv
 Requires Node ≥ 20 (developed on Node 22, npm 11).
 
 ```bash
-cd 06-rocketchat-code-analyzer
+cd Breadcrumbs
 npm install      # installs typescript + tsx + @types/node (dev only)
 npm run build    # tsc -> dist/  (must succeed with no type errors)
 npm test         # node:test suite (parser, graph, pack)
@@ -174,7 +174,7 @@ The default counter estimates tokens with `chars / 4`, so the budget is approxim
 ## Project layout
 
 ```
-06-rocketchat-code-analyzer/
+Breadcrumbs/
 ├── package.json          scripts: build / test / rcca / start  +  bin: rcca
 ├── tsconfig.json         strict, NodeNext ESM, dist/ output
 ├── src/
