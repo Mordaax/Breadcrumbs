@@ -1,4 +1,4 @@
-# rcca: code context analyzer
+# Breadcrumbs
 
 `rcca` is a TypeScript CLI that selects source files for an AI coding agent's context. Give it a repository, one or more starting files and a token budget. It follows imports and dependents, ranks nearby files and writes a context pack.
 
